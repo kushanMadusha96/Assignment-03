@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="../assets/css/normalize.css">
 
     <style>
-        section{
-            top: 0;
+        section>div:first-child{
             position: sticky;
+            top: 0;
+            z-index: 9999;
         }
         section>div:first-child{
             background-color: #ff253a;
             height: 50px;
         }
+
         section>div:first-child>span{
             width: fit-content;
             position: absolute;
@@ -66,19 +68,19 @@
 <body>
     <section>
         <div><span>card 1</span></div>
-        <div><span>hello</span></div>
+        <div><span>Hello</span></div>
     </section>
     <section>
-        <div><span>card 1</span></div>
-        <div><span>rty</span></div>
+        <div><span>card 2</span></div>
+        <div><span>How</span></div>
     </section>
     <section>
-        <div><span>card 1</span></div>
-        <div><span>fv</span></div>
+        <div><span>card 3</span></div>
+        <div><span>Are</span></div>
     </section>
     <section>
-        <div><span>card 1</span></div>
-        <div><span>iuyt</span></div>
+        <div><span>card 4</span></div>
+        <div><span>You</span></div>
     </section>
 </body>
 </html>
